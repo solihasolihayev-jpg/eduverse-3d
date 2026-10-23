@@ -1,0 +1,17 @@
+{
+  "name": "eduverse3d-multiplayer-mvp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "EDUVERSE 3D browser-based multiplayer quiz MVP, up to 40 players per room",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
